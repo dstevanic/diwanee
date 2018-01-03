@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Diwanee</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="front-page">
+            <header>
+                <div class="wrapper-header">
+                    <div class="logo">
+                        <div class="logo-container">
+                            <a href="index.html">
+                                <img src="pictures/logo.png" />
+                            </a>
+                            <button class="menu-button" onclick="toggleNavigation()">
+                                &#9776;
+                            </button>
+                        </div>
+                    </div>
+                    <nav id="main-nav" class="main-nav">
+
+                        <ul id="nav-list">
+                            <li>
+                                <a href="#about-us">O nama</a>
+                            </li>
+                            <li>
+                                <a href="#jobs">Poslovi</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Kontakt</a>
+                            </li>
+
+                        </ul>
+                        <div class="follow-us">
+                            <span>Pratite nas</span>
+                            <a href="#">
+                                <img class="img-in" src="pictures/in.png" />
+                            </a><a href="#">
+                                <img class="img-t" src="pictures/t.png" />
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="front-page-text">
+                <h1>Diwanee Serbia</h1>
+                <hr class="divade red" />
+                <p class="fp-desktop"> Digital Media Agency always looking for motivated, multi-talented, and organized people to join our diverse
+                    team.
+                </p>
+                <p class="fp-mobile">Digital Media Agency</p>
+            </div>
+        </div>
+        <div class="intro">
+            <div class="left">
+                <div class="intro-img">
+                    <img src="pictures/development.png" />
+                </div>
+                <h3>Development</h3>
+                <hr class="divade gray" />
+                <div class="intro-text">
+                    Front-end Developers play a critical role in most projects at Code and Theory. They are aciviely involved troughout the project
+                    lifecycle, often times starting with rapid prototypes early in the design phase.
+                </div>
+            </div>
+            <div class="middle">
+                <div class="intro-img">
+                    <img src="pictures/web.png" />
+                </div>
+                <h3>Web & Ui design</h3>
+                <hr class="divade gray" />
+                <div class="intro-text">
+                    Front-end Developers play a critical role in most projects at Code and Theory. They are aciviely involved troughout the project
+                    lifecycle, often times starting with rapid prototypes early in the design phase.
+                </div>
+            </div>
+            <div class="right">
+                <div class="intro-img">
+                    <img src="pictures/teamwork.png" />
+                </div>
+                <h3>work in team</h3>
+                <hr class="divade gray" />
+                <div class="intro-text">
+                    Front-end Developers play a critical role in most projects at Code and Theory. They are aciviely involved troughout the project
+                    lifecycle, often times starting with rapid prototypes early in the design phase.
+                </div>
+            </div>
+        </div>
+        <div id="jobs" class="jobs">
+            <div class="job-adverts">
+                <span>otvorene pozicije</span>
+                <h2>Poslovi</h2>
+                <hr class="divade red" />
+                <p>We are always looking for motivated, multi-talented, and organized people to join out diverse team.</p>
+            </div>
+            <div class="advert bg-white">
+                <div class="advert-wrapper">
+                    <div class="details">
+                        <h4>Front-end developer</h4>
+                        <p>Tražimo Front End Developera sa odličnim poznavanjem i iskustvom više od godinu dana u Drupalu.</p>
+                        <span>#HTML</span>
+                        <span>#CSS</span>
+                        <span>#JavaScript</span>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#" class="black-btn">Prijavi se</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" advert bg-black">
+                <div class="advert-wrapper">
+                    <div class="details">
+                        <h4>PROJECT MANAGER</h4>
+                        <p>Tražimo Project Managera sa odličnim organizacionim sposobnostima i iskustvom vođenja digital projekata...</p>
+
+                        <span>#HTML</span>
+
+                        <span>#CSS</span>
+
+                        <span>#Balsamiq</span>
+
+                        <span>#UXpin</span>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#" class="white-btn">Prijavi se</a>
+                    </div>
+                </div>
+            </div>
+            <div class="advert bg-white">
+                <div class="advert-wrapper">
+                    <div class="details">
+                        <h4>UX/UI Designer</h4>
+                        <p>Ako si kreativan i volis da radis u timu, posedujes visegodisnje iskustvo iz oblasti digital dizajna,
+                            ux/ui...
+                        </p>
+                        <span>#Sketch</span>
+                        <span>#AdobeXD</span>
+                        <span>#Photoshop</span>
+                        <span>#Balsamiq</span>
+                    </div>
+                    <div class="apply-btn">
+                        <a href="#" class="black-btn">Prijavi se</a>
+                    </div>
+                </div>
+            </div>
+            <div class="more-adverts">
+                <span>Učitaj još pozicija</span>
+            </div>
+        </div>
+        <div id="about-us" class="about-us">
+            <span>diwanee beograd</span>
+            <h2>Digital media company</h2>
+            <hr class="divade red" />
+            <p>Diwanee je digitalna medijska kompanija, okrenuta velikoj ženskoj publici na Bliskom istoku. Naša kompanija stvara
+                i distribuira originalan, visokokvaltetan i pouzdan sadržaj. Diwanee je takođe partner sa YouTubo-om, i zajedno
+                smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske žene širom
+                sveta. </p>
+            <p>Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru. Diwanee je partner
+                i sa velikim regionalnim vlasnicima medija, kako bismo upravljali digitalnom prisutnošću.</p>
+        </div>
+        <div class="social-links-wrapper">
+            <p>Pratite nas</p>
+            <div class="social-img">
+                <a href="#">
+                    <img src="pictures/twitter.png" alt="twitter" />
+                </a>
+                <a href="#">
+                    <img src="pictures/fb.png" alt="facebook" />
+                </a>
+            </div>
+        </div>
+        <footer>
+
+            <div id="contact" class="contact">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h1>
+                            <img src="pictures/poi.png" />
+                            <span>Dubai</span>
+                        </h1>
+                        <p>Office Park, Building Block A </p>
+                        <p>Units A301-A302</p>
+                        <p>Dubai Internet City </p>
+                        <p>T:971 4 - 434 7147</p>
+                    </div>
+                    <div class="contact-info">
+                        <h1>
+                            <img src="pictures/poi.png" />
+                            <span>Beirut</span>
+                        </h1>
+                        <p>Dora, Sesaide Road, </p>
+                        <p>BCP bldg (Facing Demco Steel)</p>
+                        <p>Mobile: 961 76 - 866 700 </p>
+                        <p>Fax: 961 1 - 244 846</p>
+                    </div>
+                    <div class="contact-info">
+                        <h1>
+                            <img src="pictures/poi.png" />
+                            <span>Belgrade</span>
+                        </h1>
+                        <p>Resavska 33,</p>
+                        <p>11000 Beograd</p>
+                        <p>Tel: +381 11 - 340 117</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright-wrapper">
+                    <div class="copyright-left">
+                        <p>copyright &copy; 2015 diwanee serbia all right reserved</p>
+                    </div>
+                    <div class="copyright-right">
+                        <a href="#">
+                            <!-- <img  class="img-in"src="pictures/in.png" /> -->
+                            <img class="img-big-in" src="pictures/big-in.png" />
+                        </a>
+                        <a href="#">
+                            <!-- <img class="img-t" src="pictures/t.png" /> -->
+                            <img class="img-big-t" src="pictures/big-t.png" />
+                        </a>
+                        <a href="#">www.diwanee.com</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+
+    </div>
+    <script>
+
+        $(document).ready(function () {
+            $("#main-nav a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+        function toggleNavigation() {
+            $("#main-nav").slideToggle('slow');
+            $("#main-nav").toggleClass("show");
+        }
+
+    </script>
+</body>
+
+</html>
